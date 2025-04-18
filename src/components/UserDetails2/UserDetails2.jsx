@@ -9,6 +9,7 @@ const UserDetails2 = ({userDetails2Promice}) => {
         <div>
             <h2> {name}</h2>
             <p>email: {email}</p>
+            <h2>hellow lamim</h2>
         </div>
     );
 };

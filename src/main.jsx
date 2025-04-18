@@ -72,6 +72,22 @@ const router = createBrowserRouter([
     // element:<h2>Doc</h2>
     path: '/app',
     Component: App,
+  },
+  {
+    path: '*',
+    element: <div>
+      <img src="https://images.unsplash.com/photo-1544952019-734321a2a151?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=" sunflower" />
+      <div style={{
+      color: 'red',
+      border: "3px dashed purple",
+      borderRadius: '50px',
+      margin: '10px',
+      padding: '10px',
+    }}>
+      <h2><i>not found 404 status</i></h2>
+      <p><i>oii,,,srabonti bhul patha chak kortaso . </i></p>
+    </div>
+    </div>
   }
 ])
 createRoot(document.getElementById('root')).render(
